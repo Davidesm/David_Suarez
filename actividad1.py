@@ -27,7 +27,7 @@ class Actividad_1():
 
         return True # booleano True (1) False (0)
 
-        #Creamos instancia de la clase--
+        #Creamos instancia de la clase
 ingestion = Actividad_1()
 
 datos_json = ingestion.leer_api("https://share.osf.io/api/v2/normalizeddata/")
